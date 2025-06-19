@@ -1,0 +1,24 @@
+{
+  "name": "gumplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "changeButtons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henAutumn/GumPlayground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/henAutumn/GumPlayground/issues"
+  },
+  "homepage": "https://github.com/henAutumn/GumPlayground#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,5 +1,6 @@
 const videoEl = document.querySelector("#my-video");
 let stream = null; // init stream var so we can use it anywhere
+let mediaStream = null;
 const constraints = {
   audio: true, // use headphones or be prepared for feedback
   video: true,
@@ -8,6 +9,7 @@ const constraints = {
 const getMicAndCamera = async (e) => {
   try {
     stream = await navigator.mediaDevices.getUserMedia(constraints);
+    getDevices();
     changeButtons([
       "green",
       "blue",
